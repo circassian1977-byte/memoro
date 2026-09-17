@@ -20,7 +20,7 @@ Works with Claude, ChatGPT, Grok, Perplexity, and Gemini. Right click "Save to M
 
 ## Installation
 
-Windows only for now (Mac and Linux planned). Download and pricing: see the project's release page (coming soon here).
+Windows only for now (Mac and Linux planned). **[Download MemoroSetup.exe](https://github.com/circassian1977-byte/memoro/releases/latest)** — free tier: unlimited local storage, one device, no account or card required. See the [release notes](https://github.com/circassian1977-byte/memoro/releases) for Pro pricing.
 
 ## Privacy
 
