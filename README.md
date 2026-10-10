@@ -1,31 +1,48 @@
 # Memoro
 
-**A personal AI memory layer that follows you across every AI you use.**
+**One memory for every AI you use — stored on your own computer.**
 
-Memoro is a lightweight Windows app that gives every AI assistant you talk to (Claude, ChatGPT, Grok, Perplexity, Gemini) a shared, persistent memory of you: your projects, decisions, preferences, and the people in your life. Tell one AI something once; every other AI you use can pick it up from exactly where you left off.
+🌐 **Website:** [getmemoro.pages.dev](https://getmemoro.pages.dev) · [Türkçe](https://getmemoro.pages.dev/tr/) · [Русский](https://getmemoro.pages.dev/ru/)
+
+Memoro is a Windows app that gives Claude, ChatGPT, Grok and Perplexity one shared, always-current memory of your projects, decisions and preferences. Explain your project once; every AI you connect reads and updates the same short "status cards", so you stop re-explaining context every time you switch tools.
 
 ## Why
 
-Every AI chat starts from zero. Explain your project to Claude on Monday, switch to ChatGPT on Tuesday, and you're re-explaining everything. Memoro fixes that, without asking you to trust a third-party server with your data.
+Every AI chat starts from zero. Plan with Claude on Monday, continue in ChatGPT on Tuesday, and you spend the first ten minutes re-explaining everything. Built-in AI memories are locked inside a single app and don't talk to each other. Memoro is one memory for all of them — without sending your data to a server we run (we don't run one).
 
 ## How it works
 
-Memoro runs quietly in the background on your own computer. A small MCP (Model Context Protocol) connector, added once to each AI platform, lets your AI read and write to your memory. Memory is stored as "status cards": one focused, up-to-date summary per topic, not a raw chat log. An optional, free Cloudflare Worker and D1 layer, deployed in your own Cloudflare account, gives you access from anywhere, even when your computer is off.
+- Memoro runs quietly in the background on your PC and exposes your memory to AI assistants through MCP (Model Context Protocol).
+- Memory is kept as **status cards**: one focused, up-to-date summary per topic (what was decided, what was ruled out, what's next). Cards are updated instead of piling up contradictions, and older versions are kept.
+- Claude Desktop connects locally. Browser and phone AIs (claude.ai, ChatGPT, Grok, Perplexity) connect through an optional bridge that Memoro deploys to **your own** free Cloudflare account.
+- Memoro does not scrape your chats. The AI writes cards through Memoro's tools when something is worth keeping, or when you ask.
 
-Nothing is ever stored on a server we run. We don't operate one. Your data lives on your machine and, optionally, in cloud infrastructure you own.
+## Free and Pro
 
-## Features
+| | Free | Pro — $9.99/year or $1.99/month |
+|---|---|---|
+| Claude Desktop connection | ✓ | ✓ |
+| Unlimited memories and status cards | ✓ | ✓ |
+| claude.ai, ChatGPT, Grok, Perplexity | — | ✓ |
+| Phone and browser access (cloud bridge) | — | ✓ |
+| "Add AI" for any MCP-compatible assistant | — | ✓ |
+| Sync across several PCs | — | ✓ |
+| Team Projects (beta) | — | ✓ |
 
-Works with Claude, ChatGPT, Grok, Perplexity, and Gemini. Right click "Save to Memoro" browser extension for one off notes. Multi device sync via your own OneDrive or Google Drive (Pro). Team Projects: a shared memory for a team, with conflict resolution and an approval step for critical changes (Pro). Seven day free trial of every Pro feature, no card required.
+Every new install gets **all Pro features free for 7 days**, no card required. To activate Pro, paste the license key from your purchase email into the **License** section of the Memoro control panel.
 
-## Installation
+## Download
 
-Windows only for now (Mac and Linux planned). **[Download MemoroSetup.exe](https://github.com/circassian1977-byte/memoro/releases/latest)** — free tier: unlimited local storage, one device, no account or card required. See the [release notes](https://github.com/circassian1977-byte/memoro/releases) for Pro pricing.
+Windows 10 / 11. **[Download the latest version](https://getmemoro.pages.dev/download)** · [Release notes](https://github.com/circassian1977-byte/memoro/releases)
+
+Memoro needs Node.js (free); the installer tells you if it's missing. The installer isn't code-signed yet, so Windows may show "Windows protected your PC" — click **More info → Run anyway**. Mac and Linux are planned.
 
 ## Privacy
 
-No hosting of your data, no data sales, no ads. The only thing Memoro sells is the software itself.
+Your memory lives on your computer (and, if you enable it, in your own Cloudflare account). No account with us, no ads, no tracking, no data sales. Full policy: [getmemoro.pages.dev/privacy](https://getmemoro.pages.dev/privacy/).
 
-## Status
+## Status and feedback
 
-Early stage, actively developed. Issues and feedback welcome.
+Early stage, actively developed. Questions and bug reports: [open an issue](https://github.com/circassian1977-byte/memoro/issues).
+
+© 2026 Memoro. All rights reserved. This repository contains documentation and releases only; the source code is not open source.
