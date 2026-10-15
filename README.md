@@ -4,6 +4,8 @@
 
 🌐 **Website:** [getmemoro.pages.dev](https://getmemoro.pages.dev) · [Türkçe](https://getmemoro.pages.dev/tr/) · [Русский](https://getmemoro.pages.dev/ru/)
 
+<a href="https://apps.microsoft.com/detail/9PBM9N3NDSDX"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="180" alt="Get it from Microsoft Store"></a>
+
 Memoro is a Windows app that gives Claude, ChatGPT, Grok and Perplexity one shared, always-current memory of your projects, decisions and preferences. Explain your project once; every AI you connect reads and updates the same short "status cards", so you stop re-explaining context every time you switch tools.
 
 ## Why
@@ -33,9 +35,11 @@ Every new install gets **all Pro features free for 7 days**, no card required. T
 
 ## Download
 
-Windows 10 / 11. **[Download the latest version](https://getmemoro.pages.dev/download)** · [Release notes](https://github.com/circassian1977-byte/memoro/releases)
+<a href="https://apps.microsoft.com/detail/9PBM9N3NDSDX"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store"></a>
 
-Memoro needs Node.js (free); the installer tells you if it's missing. The installer isn't code-signed yet, so Windows may show "Windows protected your PC" — click **More info → Run anyway**. Mac and Linux are planned.
+Windows 10 / 11 — **[get Memoro from the Microsoft Store](https://apps.microsoft.com/detail/9PBM9N3NDSDX)** (free). Everything it needs is included, Windows installs it without warnings, and updates arrive automatically through the Store. Mac and Linux are planned.
+
+[Release notes](https://github.com/circassian1977-byte/memoro/releases)
 
 ## Privacy
 
