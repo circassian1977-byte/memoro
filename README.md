@@ -1,12 +1,12 @@
-# Memoro
+# Memoro: Long-Term Memory for AI
 
-**One memory for every AI you use — stored on your own computer.**
+**Your AI forgets. Memoro remembers — in every chat, across every AI.**
 
 🌐 **Website:** [getmemoro.pages.dev](https://getmemoro.pages.dev) · [Türkçe](https://getmemoro.pages.dev/tr/) · [Русский](https://getmemoro.pages.dev/ru/)
 
 <a href="https://apps.microsoft.com/detail/9PBM9N3NDSDX"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="180" alt="Get it from Microsoft Store"></a>
 
-Memoro is a Windows app that gives Claude, ChatGPT, Grok and Perplexity one shared, always-current memory of your projects, decisions and preferences. Explain your project once; every AI you connect reads and updates the same short "status cards", so you stop re-explaining context every time you switch tools.
+Memoro is a Windows app that gives your AI a long-term memory: every new chat — in Claude, ChatGPT, Grok or Perplexity — picks up where you left off instead of starting from zero. Explain your project once; every AI you connect reads and updates the same short "status cards", so you stop re-explaining context every time you switch tools.
 
 ## Why
 
