@@ -21,7 +21,7 @@ Every AI chat starts from zero. Plan with Claude on Monday, continue in ChatGPT 
 
 ## Free and Pro
 
-| | Free | Pro — $9.99/year or $1.99/month |
+| | Free | Pro — $39.99/year or $4.99/month |
 |---|---|---|
 | Claude Desktop connection | ✓ | ✓ |
 | Unlimited memories and status cards | ✓ | ✓ |
