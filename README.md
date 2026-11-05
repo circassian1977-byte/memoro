@@ -4,7 +4,7 @@
 
 🌐 **Website:** [getmemoro.pages.dev](https://getmemoro.pages.dev) · [Türkçe](https://getmemoro.pages.dev/tr/) · [Русский](https://getmemoro.pages.dev/ru/)
 
-<a href="https://apps.microsoft.com/detail/9PBM9N3NDSDX"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="180" alt="Get it from Microsoft Store"></a>
+<a href="https://apps.microsoft.com/detail/9PBM9N3NDSDX?cid=github"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="180" alt="Get it from Microsoft Store"></a>
 
 Memoro is a Windows app that gives your AI a long-term memory: every new chat — in Claude, ChatGPT, Grok or Perplexity — picks up where you left off instead of starting from zero. Explain your project once; every AI you connect reads and updates the same short "status cards", so you stop re-explaining context every time you switch tools.
 
@@ -35,9 +35,9 @@ Every new install gets **all Pro features free for 7 days**, no card required. T
 
 ## Download
 
-<a href="https://apps.microsoft.com/detail/9PBM9N3NDSDX"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store"></a>
+<a href="https://apps.microsoft.com/detail/9PBM9N3NDSDX?cid=github"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store"></a>
 
-Windows 10 / 11 — **[get Memoro from the Microsoft Store](https://apps.microsoft.com/detail/9PBM9N3NDSDX)** (free). Everything it needs is included, Windows installs it without warnings, and updates arrive automatically through the Store. Mac and Linux are planned.
+Windows 10 / 11 — **[get Memoro from the Microsoft Store](https://apps.microsoft.com/detail/9PBM9N3NDSDX?cid=github)** (free). Everything it needs is included, Windows installs it without warnings, and updates arrive automatically through the Store. Mac and Linux are planned.
 
 [Release notes](https://github.com/circassian1977-byte/memoro/releases)
 
